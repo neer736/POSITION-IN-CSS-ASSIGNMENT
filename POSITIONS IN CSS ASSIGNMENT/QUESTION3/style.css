@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.earth{
+    background-color: rgba(239, 242, 180, 0.481);
+    height: 280px;
+}
+.vt{
+    margin-top: 20px;
+}
+.nature{
+    font-size: 25px;
+}
+img{
+    float: right;
+margin-bottom: 20px;
+}
+h2{
+    padding: 10px;
+}

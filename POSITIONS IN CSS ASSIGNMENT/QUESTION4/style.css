@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0a0909;
+    display: flex;
+    justify-content:flex-end;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+.logo{
+    color: #eff1f3;
+    margin:auto;
+    margin-left: 50px;
+}
+li{
+    display: inline-block;   
+}
+li a{
+    text-decoration: none;
+    color: #616060;
+    margin: 30px;
+    font-size:17px;
+    font-family: 'Lucida Sans';
+}
+.home{
+    color: #f0f8ff;
+}
+button{
+    background-color: #0b0a0a;
+    color: rgb(200, 151, 29);
+    border-radius: 12px;
+    border-color: #cc9919;
+    width: 95px;
+    height: 30px;
+    margin-right: 5%;
+    
+}

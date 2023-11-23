@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_box{
+    position: relative;
+    /* this is our main container and we gave its position to relative */
+}
+.box{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    /* these are styling of are boxes we make them absolute for applying Z index. */
+
+}
+.box1{
+    background-color: #c24949;
+}
+.box2{
+background-color: #1bb280;
+z-index: 7;
+
+/* here z-index property is applied and its shows that this layer will be shown on the top we gave its value of "5" and if we give the value of more than 5 to some other box then that layer will appear on top. */
+
+}
+.box3{
+    background-color: #62378b;
+    z-index: 12;
+
+    /* We gave box3 value "12" and its more than the box2 Z index's value that means box 3 will  appear on top . more Z index value layer will appear on top. */
+}
+.box4{
+    background-color: #395f12;
+}

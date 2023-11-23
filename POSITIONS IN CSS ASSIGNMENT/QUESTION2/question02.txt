@@ -1,0 +1,12 @@
+Absolute Positioning:
+
+Elements with absolute positioning are positioned relative to their nearest positioned ancestor (an ancestor that has a position property other than static), if any. If there is no positioned ancestor, the element is positioned relative to the initial containing block, which is usually the <html> element.
+The element is taken out of the normal flow of the document, meaning it doesn't affect the layout of other elements on the page.
+Use properties like top, right, bottom, and left to specify the exact position of the element.
+
+
+Relative Positioning:
+
+Elements with relative positioning are still considered part of the normal flow of the document.
+The element is positioned relative to its normal position in the document flow, but you can then adjust its position using the top, right, bottom, and left properties.
+If no positioning values are specified (top, right, bottom, left), the element will be displayed in its normal position.
